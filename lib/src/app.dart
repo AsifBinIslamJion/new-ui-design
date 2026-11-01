@@ -1,4 +1,7 @@
+import 'package:app_ui_desing/src/pages/checkout.dart';
 import 'package:app_ui_desing/src/pages/home_page.dart';
+import 'package:app_ui_desing/src/pages/login_page.dart';
+import 'package:app_ui_desing/src/pages/service_details_page.dart';
 // import 'package:app_ui_desing/src/pages/login_page.dart';
 import 'package:flutter/material.dart';
 
@@ -7,6 +10,9 @@ class App extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(home: HomePage(), debugShowCheckedModeBanner: false);
+    return MaterialApp(
+      home: ServiceDetailsPage(),
+      debugShowCheckedModeBanner: false,
+    );
   }
 }
